@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: auto;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(56, 49, 163);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 150px auto;
+  font-size: 20px;
+  color: white;
+}
+
+.heading {
+  text-align: center;
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  align-self: center;
+  color: #f3f3f3;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+#description {
+  font-size: 20px;
+}
+.survey {
+  border: 1px solid blue;
+  padding: 40px 40px 50px 40px;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  background-color:rgb(37, 31, 55);
+}
+
+.data input,
+#dropdown {
+  width: 600px;
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+}
+
+.dropdown2 #dropdown {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#suggestion {
+  width: 600px;
+  margin-top: 10px;
+}
+
+#submit {
+  background: green;
+  width: 600px;
+  height: 50px;
+  color: white;
+  margin-top: 20px;
+  font-size: 18px;
+}
+#name,
+#email,
+#number,
+#dropdown,
+#suggestion {
+  padding-left: 10px;
+}
